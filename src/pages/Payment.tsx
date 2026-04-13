@@ -37,8 +37,8 @@ const Payment = () => {
   };
 
   const statusIcon = {
-    pending: <Clock className="h-5 w-5 text-yellow-400" />,
-    confirming: <Clock className="h-5 w-5 text-blue-400 animate-spin" />,
+    pending: <Clock className="h-5 w-5 text-muted-foreground" />,
+    confirming: <Clock className="h-5 w-5 text-accent-foreground animate-spin" />,
     paid: <CheckCircle className="h-5 w-5 text-primary" />,
     delivered: <CheckCircle className="h-5 w-5 text-primary" />,
     failed: <AlertCircle className="h-5 w-5 text-destructive" />,
